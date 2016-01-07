@@ -1,7 +1,10 @@
 module Senuk
-    export Solvers, Regression
+    export
+    Solvers,
+    Regression
 
+    include("./printutil.jl")
     include("./solvers.jl")
     include("./regression.jl")
 
-end # module
+end
